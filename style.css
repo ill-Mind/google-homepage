@@ -1,0 +1,114 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 590;
+}
+
+.nav {
+    margin: 20px;
+}
+
+.right {
+    float: right;
+}
+
+.nav-item {
+    margin: auto 0.4em;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #434343;
+}
+
+#nav-button {
+    background: #4487FA;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.google-img {
+    height: 15px;
+    opacity: 0.5
+}
+
+.google-img:hover {
+    opacity: 1;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    display: block;
+    margin: 150px auto 30px auto;
+}
+
+.search-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 24px;
+    width: 582px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    border: none;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.search-wrapper:hover {
+    box-shadow: 0px 1px 6px rgba(32,33,36,0.28);
+}
+
+.glass {
+    height: 15px;
+    opacity: 0.4;
+    padding: 10px 14px;
+}
+
+.mic {
+    height: 24px;
+    padding: 10px 16px;
+} 
+
+button:focus {
+    outline: 0;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.text-button {
+    color: black;
+    background: #F5F5F5;
+    margin-top: 2em;
+    padding: 0.9em 1.3em;
+    border: none;
+    border-radius: 2px;
+    position: auto;
+    top: 50%;
+}
+
+#footer {
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-right {
+    padding-right: 20px;
+}
+
